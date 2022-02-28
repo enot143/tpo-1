@@ -79,6 +79,6 @@ class BtreeTest {
     }
     @Test
     void find3() {
-        assertTrue(secondBTree.findKey(9));
+        assertFalse(secondBTree.findKey(51));
     }
 }
